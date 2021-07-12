@@ -24,3 +24,35 @@
   width: 1px;
   white-space: nowrap;
 }
+
+// ЦВЕТА
+
+$black: #24242E;
+$dark-gray: #353542;
+$dark-sea: #1E489B;
+$light-sea: #6984BB;
+$white: #FFFFFF;
+
+// ТИПОГРАФИКА (с адаптивом)
+
+.title {
+    font-family: 'Circe';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    color: #24242E;
+    @media (max-width: 768px) {
+        font-size: calc(27px + (40 - 27) * ((100vw - 320px) / (1400 - 320)));
+    }
+}
+
+.subtitle {
+    font-family: Circe;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    @media (max-width: 620px) {
+        font-size: calc(13px + (24 - 13) * ((100vw - 320px) / (1400 - 320)));
+    }
+}
