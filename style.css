@@ -51,4 +51,79 @@
     font-size: calc(13px + (24 - 13) * ((100vw - 320px) / (1400 - 320)));
   }
 }
+
+.about {
+  position: relative;
+}
+
+.about__video {
+  margin-top: 67px;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .about__video {
+    margin-top: 64px;
+  }
+}
+
+.about__waves {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin-bottom: -68px;
+}
+
+@media (max-width: 768px) {
+  .about__waves {
+    display: none;
+  }
+}
+
+.about__button {
+  margin-top: 52px;
+  margin-bottom: 68px;
+}
+
+@media (max-width: 400px) {
+  .about__button {
+    width: 100%;
+    margin-top: 38px;
+  }
+}
+
+.video__content {
+  height: 100%;
+  max-width: 750px;
+  width: 100%;
+}
+
+.video__title {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .video__title {
+    padding-bottom: 29px;
+  }
+}
+
+.video__button {
+  background-color: transparent;
+  border: none;
+  margin-left: -70px;
+  margin-top: 53px;
+  vertical-align: top;
+  position: relative;
+}
+
+@media (max-width: 1111px) {
+  .video__button {
+    display: none;
+  }
+}
+
+.playButton {
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */

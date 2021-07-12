@@ -56,3 +56,69 @@ $white: #FFFFFF;
         font-size: calc(13px + (24 - 13) * ((100vw - 320px) / (1400 - 320)));
     }
 }
+
+// ABOUT
+
+.about {
+    position: relative;
+    
+    &__video {
+        margin-top: 67px;
+        width: 90%;
+        @media (max-width: 768px) {
+            margin-top: 64px;
+        }
+    }
+
+    &__waves {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        margin-bottom: -68px;
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__button {
+        margin-top: 52px;
+        margin-bottom: 68px;
+        @media (max-width: 400px) {
+            width: 100%;
+            margin-top: 38px;
+        }
+    }
+}
+
+.video {
+    &__content {
+        height: 100%;
+        max-width: 750px;
+        width: 100%;
+    }
+
+    &__title {
+        padding-bottom: 40px;
+        @media (max-width: 768px) {
+            padding-bottom: 29px;
+        }
+    }
+
+    &__button {
+        background-color: transparent;
+        border: none;
+        margin-left: -70px;
+        margin-top: 53px;
+        vertical-align: top;
+        position: relative;
+
+        @media (max-width: 1111px) {
+            display: none;
+        }
+    }
+}
+
+
+.playButton {
+    outline: none;
+}
