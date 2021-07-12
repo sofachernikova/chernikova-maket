@@ -1,0 +1,26 @@
+@import url("http://db.onlinewebfonts.com/c/51e35a1ffb5e3b1585fa96a24179dd52?family=Circe");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=style.css.map */
