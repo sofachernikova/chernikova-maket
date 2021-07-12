@@ -32,12 +32,24 @@
   color: #24242E;
 }
 
+@media (max-width: 768px) {
+  .title {
+    font-size: calc(27px + (40 - 27) * ((100vw - 320px) / (1400 - 320)));
+  }
+}
+
 .subtitle {
   font-family: Circe;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 120%;
+}
+
+@media (max-width: 620px) {
+  .subtitle {
+    font-size: calc(13px + (24 - 13) * ((100vw - 320px) / (1400 - 320)));
+  }
 }
 
 .header {
@@ -170,6 +182,12 @@
   color: #FFFFFF;
 }
 
+@media (max-width: 376px) {
+  .sqareButton2 {
+    display: none;
+  }
+}
+
 .sqareButton2:hover {
   background: #6984bb;
 }
@@ -183,6 +201,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 1252px) {
+  .navbar {
+    display: none;
+  }
 }
 
 .navbar__logo {
@@ -266,6 +290,12 @@
   text-decoration: none;
   margin-left: auto;
   margin-right: 0;
+}
+
+@media (min-width: 1252px) {
+  .navbar2 {
+    display: none;
+  }
 }
 
 .menu {
